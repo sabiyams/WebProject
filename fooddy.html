@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food web</title>
+    <!--link the font awesome-->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link to box icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="fooddy.css">
+</head>
+<body>
+    <div class="main">
+        <!--navbar-->
+        <div class="navbar">
+            <div class="nav-1">
+                <div class="logo">MS Food Court</div>
+                    <ul class="links">
+                        <li>Home</li>
+                        <li>Menu</li>
+                        <li>About</li>
+                        <li>Location</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <!--icons-->
+                <!-- <div class="icons">
+                    <i class='bx bx-search' id="search-icon"></i>
+                    <i class="fa-solid fa-bars"></i>
+                </div> -->
+                <!-- Icons -->
+            <div class="icons">
+                <div class="search-box">
+                    <input type="text" placeholder="Search here..." class="search-input">
+                    <i class='bx bx-search' id="search-icon"></i>
+                </div>
+                <i class="fa-solid fa-bars" id="menu-toggle"></i>
+            </div>
+            </div>
+            <!--hero section-->
+            <div class="hero">
+                <div class="left">
+                    <span class="left1">Are You Hungry?</span>
+                    <span class="left2">Don't Wait</span>
+                    <span class="left3">Lets start order food now</span>
+                    <span class="left4">Order Now</span>
+                </div>
+                <div class="food" id="food"></div>
+            </div>
+            <!--food items-->
+            <div class="items">
+                <div id="food1"></div>
+                <div id="food2"></div>
+                <div id="food3"></div>
+                <div id="food4"></div>
+                <div id="food5"></div>
+                <div id="food6"></div>
+            </div>
+        </div>
+        <script src="fooddy.js"></script>
+    </body>
+</html>
